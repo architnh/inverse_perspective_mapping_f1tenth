@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target gap_follow_node_basic[0m
+[ 50%] Built target gap_follow_node
+[ 75%] [32mBuilding CXX object CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o[0m

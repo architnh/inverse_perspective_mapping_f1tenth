@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000781] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.001293] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.015175] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[0.016078] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[0.017091] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/gap_follow/build/gap_follow', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/gap_follow/build/gap_follow', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,758,0'), ('HOSTNAME', '974c356b7c32'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install:/sim_ws/src/gap_follow/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerfxj0r66o.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/src/gap_follow/install/gap_follow:/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/gap_follow/build/gap_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/src/gap_follow/install/gap_follow:/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.043175] (gap_follow) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.065181] (gap_follow) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099659] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.205622] (gap_follow) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.234979] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.237977] (gap_follow) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300048] (-) TimerEvent: {}
+[0.358835] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400128] (-) TimerEvent: {}
+[0.402839] (gap_follow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.403955] (gap_follow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500216] (-) TimerEvent: {}
+[0.525732] (gap_follow) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.525943] (gap_follow) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.555892] (gap_follow) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.600301] (-) TimerEvent: {}
+[0.618545] (gap_follow) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[0.647439] (gap_follow) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.700392] (-) TimerEvent: {}
+[0.714329] (gap_follow) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.768744] (gap_follow) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.781452] (gap_follow) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.781738] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /sim_ws/src/gap_follow/include\n'}
+[0.781884] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.795685] (gap_follow) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.795864] (gap_follow) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.797185] (gap_follow) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.800046] (gap_follow) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.800449] (-) TimerEvent: {}
+[0.801487] (gap_follow) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.812928] (gap_follow) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.813162] (gap_follow) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.814410] (gap_follow) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.816688] (gap_follow) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.829874] (gap_follow) StdoutLine: {'line': b'-- Generating done\n'}
+[0.833046] (gap_follow) StdoutLine: {'line': b'-- Build files have been written to: /sim_ws/src/gap_follow/build/gap_follow\n'}
+[0.860108] (gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gap_follow_node_basic\x1b[0m\n'}
+[0.890620] (gap_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o\x1b[0m\n'}
+[0.900551] (-) TimerEvent: {}
+[1.000837] (-) TimerEvent: {}
+[1.101135] (-) TimerEvent: {}
+[1.201429] (-) TimerEvent: {}
+[1.301691] (-) TimerEvent: {}
+[1.401957] (-) TimerEvent: {}
+[1.502272] (-) TimerEvent: {}
+[1.602543] (-) TimerEvent: {}
+[1.702812] (-) TimerEvent: {}
+[1.803098] (-) TimerEvent: {}
+[1.869248] (gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.869463] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.869557] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.869649] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.869735] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.869820] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.869904] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.869987] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.870074] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.870167] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.870252] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:1\x1b[m\x1b[K:\n'}
+[1.870362] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.870460] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:191:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.870547] (gap_follow) StderrLine: {'line': b'  191 | P_INFO(this->get_logger(), "Range \'%d\'", \x1b[01;31m\x1b[Ki\x1b[m\x1b[K);\n'}
+[1.870637] (gap_follow) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.870721] (gap_follow) StderrLine: {'line': b'\n'}
+[1.903175] (-) TimerEvent: {}
+[2.003474] (-) TimerEvent: {}
+[2.103821] (-) TimerEvent: {}
+[2.204155] (-) TimerEvent: {}
+[2.304487] (-) TimerEvent: {}
+[2.404861] (-) TimerEvent: {}
+[2.505184] (-) TimerEvent: {}
+[2.605465] (-) TimerEvent: {}
+[2.705720] (-) TimerEvent: {}
+[2.805985] (-) TimerEvent: {}
+[2.906249] (-) TimerEvent: {}
+[2.992440] (gap_follow) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gap_follow_node_basic.dir/build.make:63: CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o] Error 1\n'}
+[2.992769] (gap_follow) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gap_follow_node_basic.dir/all] Error 2\n'}
+[2.993075] (gap_follow) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.995102] (gap_follow) CommandEnded: {'returncode': 2}
+[3.006362] (-) TimerEvent: {}
+[3.034299] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 2}
+[3.044845] (-) EventReactorShutdown: {}

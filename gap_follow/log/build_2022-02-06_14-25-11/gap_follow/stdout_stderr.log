@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target gap_follow_node[0m
+[ 50%] Built target gap_follow_node_basic
+[ 75%] [32mBuilding CXX object CMakeFiles/gap_follow_node.dir/src/gap_follow_node.cpp.o[0m
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback_test(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:38:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 |         void lidar_callback_test([01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpreprocess_lidar[m[K’ was not declared in this scope
+   59 |             [01;31m[Kpreprocess_lidar[m[K(scan_msg, num_readings);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[Keliminate_bubble[m[K’ was not declared in this scope
+   62 |             [01;31m[Keliminate_bubble[m[K(num_readings);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:66:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfind_max_gap[m[K’ was not declared in this scope
+   66 |             gap_indicies = [01;31m[Kfind_max_gap[m[K(gap_indicies, num_readings);
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:70:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kfind_best_point[m[K’ was not declared in this scope
+   70 |             best_point_idx = [01;31m[Kfind_best_point[m[K(gap_indicies);
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gap_follow_node.dir/build.make:63: CMakeFiles/gap_follow_node.dir/src/gap_follow_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/gap_follow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

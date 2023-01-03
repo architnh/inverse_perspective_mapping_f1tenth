@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.000669] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.009497] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[0.010021] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[0.010636] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/gap_follow/build/gap_follow', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/gap_follow/build/gap_follow', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,758,0'), ('HOSTNAME', '974c356b7c32'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/gap_follow/gap_follow'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerfxj0r66o.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/gap_follow/build/gap_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.056241] (gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gap_follow_node\x1b[0m\n'}
+[0.079574] (gap_follow) StdoutLine: {'line': b'[ 50%] Built target gap_follow_node_basic\n'}
+[0.079796] (gap_follow) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gap_follow_node.dir/src/gap_follow_node.cpp.o\x1b[0m\n'}
+[0.099823] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.300397] (-) TimerEvent: {}
+[0.400828] (-) TimerEvent: {}
+[0.501178] (-) TimerEvent: {}
+[0.601518] (-) TimerEvent: {}
+[0.701840] (-) TimerEvent: {}
+[0.802116] (-) TimerEvent: {}
+[0.902401] (-) TimerEvent: {}
+[1.002658] (-) TimerEvent: {}
+[1.043646] (gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/context.hpp:19\x1b[m\x1b[K,\n'}
+[1.043924] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[1.044084] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[1.044228] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.044371] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.044519] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.044710] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.044888] (gap_follow) StderrLine: {'line': b'/usr/include/c++/9/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (ReactiveFollowGap::*)(), ReactiveFollowGap*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.045056] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:787:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (ReactiveFollowGap::*)(), ReactiveFollowGap*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045200] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:808:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (ReactiveFollowGap::*)(); _BoundArgs = {ReactiveFollowGap*, const std::_Placeholder<1>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045343] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:19:158:\x1b[m\x1b[K   required from here\n'}
+[1.045483] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:775:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[1.045623] (gap_follow) StderrLine: {'line': b'  774 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[1.045767] (gap_follow) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[1.045904] (gap_follow) StderrLine: {'line': b'  775 | \x1b[01;31m\x1b[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[1.046043] (gap_follow) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.046198] (gap_follow) StderrLine: {'line': b'  776 | \x1b[01;31m\x1b[K      : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[1.046336] (gap_follow) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.048584] (gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.049006] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.049129] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.049241] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.049350] (gap_follow) StderrLine: {'line': b'/usr/include/c++/9/tuple: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::tuple_element<0, std::tuple<> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.049468] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:71:9:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ReturnTypeT, class ... Args> template<long unsigned int N> using argument_type = typename std::tuple_element<N, std::tuple<_Elements ...> >::type [with long unsigned int N = 0; ReturnTypeT = void; Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.049595] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (ReactiveFollowGap::*(ReactiveFollowGap*, std::_Placeholder<1>))()>, std::allocator<void>, void, void, void, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.049709] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (ReactiveFollowGap::*(ReactiveFollowGap*, std::_Placeholder<1>))()>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.049836] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:19:159:\x1b[m\x1b[K   required from here\n'}
+[1.049955] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/tuple:1303:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: tuple index is in range\n'}
+[1.050077] (gap_follow) StderrLine: {'line': b' 1303 |       static_assert(\x1b[01;31m\x1b[K__i < tuple_size<tuple<>>::value\x1b[m\x1b[K,\n'}
+[1.050203] (gap_follow) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.050315] (gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:32\x1b[m\x1b[K,\n'}
+[1.050429] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.050541] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.050709] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.050896] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.051057] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.051213] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.051338] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.051449] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.051568] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.051694] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.051818] (gap_follow) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/function_traits.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ReturnTypeT, class ... Args> template<long unsigned int N> using argument_type = typename std::tuple_element<N, std::tuple<_Elements ...> >::type [with long unsigned int N = 0; ReturnTypeT = void; Args = {}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.051963] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (ReactiveFollowGap::*(ReactiveFollowGap*, std::_Placeholder<1>))()>, std::allocator<void>, void, void, void, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052090] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; CallbackT = std::_Bind<void (ReactiveFollowGap::*(ReactiveFollowGap*, std::_Placeholder<1>))()>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052220] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:19:159:\x1b[m\x1b[K   required from here\n'}
+[1.052345] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::tuple_element<0, std::tuple<> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052473] (gap_follow) StderrLine: {'line': b'   71 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[1.052599] (gap_follow) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.052725] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KReactiveFollowGap::ReactiveFollowGap()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.052852] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:19:159:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KReactiveFollowGap::create_subscription<sensor_msgs::msg::LaserScan>(std::string&, int, std::_Bind_helper<false, void (ReactiveFollowGap::*)(), ReactiveFollowGap*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052993] (gap_follow) StderrLine: {'line': b'   19 |             scan_sub = this->create_subscription<sensor_msgs::msg::LaserScan>(lidarscan_topic, 1, std::bind(&ReactiveFollowGap::lidar_callback_test, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.053122] (gap_follow) StderrLine: {'line': b'      |                                                                                                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.053326] (gap_follow) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.053528] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.053735] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.053887] (gap_follow) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.054027] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054264] (gap_follow) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[1.054405] (gap_follow) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.054527] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[1.054615] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveFollowGap::lidar_callback_test()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.054702] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:175:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kangle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kangles\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.054785] (gap_follow) StderrLine: {'line': b'  175 |             drive_msg.drive.steering_angle = \x1b[01;31m\x1b[Kangle\x1b[m\x1b[K;\n'}
+[1.054874] (gap_follow) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.054959] (gap_follow) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Kangles\x1b[m\x1b[K\n'}
+[1.102763] (-) TimerEvent: {}
+[1.203062] (-) TimerEvent: {}
+[1.303345] (-) TimerEvent: {}
+[1.403636] (-) TimerEvent: {}
+[1.505236] (-) TimerEvent: {}
+[1.605542] (-) TimerEvent: {}
+[1.703514] (gap_follow) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gap_follow_node.dir/build.make:63: CMakeFiles/gap_follow_node.dir/src/gap_follow_node.cpp.o] Error 1\n'}
+[1.703775] (gap_follow) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/gap_follow_node.dir/all] Error 2\n'}
+[1.703935] (gap_follow) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.705645] (-) TimerEvent: {}
+[1.705976] (gap_follow) CommandEnded: {'returncode': 2}
+[1.747929] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 2}
+[1.758329] (-) EventReactorShutdown: {}

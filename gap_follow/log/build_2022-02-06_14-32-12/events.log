@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000378] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.000906] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.010306] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[0.010791] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[0.011463] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/gap_follow/build/gap_follow', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/gap_follow/build/gap_follow', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,758,0'), ('HOSTNAME', '974c356b7c32'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/gap_follow/gap_follow'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerfxj0r66o.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/gap_follow/build/gap_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.038830] (gap_follow) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.060258] (gap_follow) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099600] (-) TimerEvent: {}
+[0.199892] (-) TimerEvent: {}
+[0.206801] (gap_follow) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.235099] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.237756] (gap_follow) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299987] (-) TimerEvent: {}
+[0.366590] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400097] (-) TimerEvent: {}
+[0.409978] (gap_follow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.411352] (gap_follow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500195] (-) TimerEvent: {}
+[0.545801] (gap_follow) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.546045] (gap_follow) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.574943] (gap_follow) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.600298] (-) TimerEvent: {}
+[0.637588] (gap_follow) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[0.667469] (gap_follow) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.700402] (-) TimerEvent: {}
+[0.733859] (gap_follow) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.795094] (gap_follow) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.800465] (-) TimerEvent: {}
+[0.810136] (gap_follow) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.810346] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /sim_ws/src/gap_follow/include\n'}
+[0.810443] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.819894] (gap_follow) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.820103] (gap_follow) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.821473] (gap_follow) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.824017] (gap_follow) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.825408] (gap_follow) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.835063] (gap_follow) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.835248] (gap_follow) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.836736] (gap_follow) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.838911] (gap_follow) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.852015] (gap_follow) StdoutLine: {'line': b'-- Generating done\n'}
+[0.853542] (gap_follow) StdoutLine: {'line': b'-- Build files have been written to: /sim_ws/src/gap_follow/build/gap_follow\n'}
+[0.879759] (gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gap_follow_node\x1b[0m\n'}
+[0.882270] (gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gap_follow_node_basic\x1b[0m\n'}
+[0.900559] (-) TimerEvent: {}
+[0.905680] (gap_follow) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gap_follow_node.dir/src/gap_follow_node.cpp.o\x1b[0m\n'}
+[0.914151] (gap_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o\x1b[0m\n'}
+[1.000641] (-) TimerEvent: {}
+[1.100907] (-) TimerEvent: {}
+[1.201192] (-) TimerEvent: {}
+[1.301490] (-) TimerEvent: {}
+[1.401790] (-) TimerEvent: {}
+[1.502118] (-) TimerEvent: {}
+[1.602428] (-) TimerEvent: {}
+[1.702699] (-) TimerEvent: {}
+[1.802975] (-) TimerEvent: {}
+[1.903246] (-) TimerEvent: {}
+[1.932942] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveFollowGap::preprocess_lidar(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.933204] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:64:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_range_threshold\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.933328] (gap_follow) StderrLine: {'line': b'   64 |                 if (p_ranges[i] > \x1b[01;31m\x1b[Kmax_range_threshold\x1b[m\x1b[K) {\n'}
+[1.933443] (gap_follow) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939173] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.939353] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:186:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.939477] (gap_follow) StderrLine: {'line': b'  186 | \x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[1.939590] (gap_follow) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.939712] (gap_follow) StderrLine: {'line': b'\n'}
+[2.003343] (-) TimerEvent: {}
+[2.103662] (-) TimerEvent: {}
+[2.204019] (-) TimerEvent: {}
+[2.304344] (-) TimerEvent: {}
+[2.404635] (-) TimerEvent: {}
+[2.504929] (-) TimerEvent: {}
+[2.605220] (-) TimerEvent: {}
+[2.705557] (-) TimerEvent: {}
+[2.805869] (-) TimerEvent: {}
+[2.906216] (-) TimerEvent: {}
+[3.006499] (-) TimerEvent: {}
+[3.106766] (-) TimerEvent: {}
+[3.120452] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.120668] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:184:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgap_indicies\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[3.120753] (gap_follow) StderrLine: {'line': b'  184 |             gap_indicies = \x1b[01;35m\x1b[Kfind_max_gap(gap_indicies, num_readings)\x1b[m\x1b[K;\n'}
+[3.120832] (gap_follow) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.134157] (gap_follow) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gap_follow_node_basic.dir/build.make:63: CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o] Error 1\n'}
+[3.134488] (gap_follow) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/gap_follow_node_basic.dir/all] Error 2\n'}
+[3.134636] (gap_follow) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.206847] (-) TimerEvent: {}
+[3.307107] (-) TimerEvent: {}
+[3.407416] (-) TimerEvent: {}
+[3.507742] (-) TimerEvent: {}
+[3.608077] (-) TimerEvent: {}
+[3.708384] (-) TimerEvent: {}
+[3.808635] (-) TimerEvent: {}
+[3.908904] (-) TimerEvent: {}
+[4.009165] (-) TimerEvent: {}
+[4.109423] (-) TimerEvent: {}
+[4.209716] (-) TimerEvent: {}
+[4.309965] (-) TimerEvent: {}
+[4.410259] (-) TimerEvent: {}
+[4.510548] (-) TimerEvent: {}
+[4.610808] (-) TimerEvent: {}
+[4.711082] (-) TimerEvent: {}
+[4.811409] (-) TimerEvent: {}
+[4.886714] (gap_follow) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable gap_follow_node\x1b[0m\n'}
+[4.911503] (-) TimerEvent: {}
+[5.011797] (-) TimerEvent: {}
+[5.100487] (gap_follow) StdoutLine: {'line': b'[ 75%] Built target gap_follow_node\n'}
+[5.101239] (gap_follow) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.102755] (gap_follow) CommandEnded: {'returncode': 2}
+[5.111906] (-) TimerEvent: {}
+[5.143143] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 2}
+[5.153841] (-) EventReactorShutdown: {}

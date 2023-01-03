@@ -1,0 +1,14 @@
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:27:29:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat ReactiveFollowGap::drive_speed[m[K’
+   27 |         float drive_speed = [01;31m[K.75[m[K; // meters/sec
+      |                             [01;31m[K^~~[m[K
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:25:15:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kfloat ReactiveFollowGap::drive_speed[m[K’
+   25 |         float [01;36m[Kdrive_speed[m[K = .75; // meters/sec
+      |               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:188:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  188 | [01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/gap_follow_node_basic.dir/build.make:63: CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/gap_follow_node_basic.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

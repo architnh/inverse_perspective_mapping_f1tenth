@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.000605] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.010045] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[0.010401] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '/sim_ws/src/gap_follow', '-DCMAKE_INSTALL_PREFIX=/sim_ws/src/gap_follow/install/gap_follow'], 'cwd': '/sim_ws/src/gap_follow/build/gap_follow', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,758,0'), ('HOSTNAME', '974c356b7c32'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/gap_follow/gap_follow'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerfxj0r66o.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/gap_follow/build/gap_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.074573] (gap_follow) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099800] (-) TimerEvent: {}
+[0.127310] (gap_follow) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.133803] (gap_follow) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199910] (-) TimerEvent: {}
+[0.202719] (gap_follow) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.204094] (gap_follow) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.275578] (gap_follow) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.289310] (gap_follow) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.289709] (gap_follow) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.292549] (gap_follow) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299982] (-) TimerEvent: {}
+[0.370819] (gap_follow) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.372450] (gap_follow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400076] (-) TimerEvent: {}
+[0.454748] (gap_follow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.469126] (gap_follow) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.469577] (gap_follow) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.471705] (gap_follow) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.497024] (gap_follow) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.497266] (gap_follow) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500144] (-) TimerEvent: {}
+[0.600354] (-) TimerEvent: {}
+[0.659947] (gap_follow) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.697980] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700413] (-) TimerEvent: {}
+[0.704368] (gap_follow) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.795298] (gap_follow) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.800498] (-) TimerEvent: {}
+[0.823028] (gap_follow) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.898820] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900581] (-) TimerEvent: {}
+[0.947398] (gap_follow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.948502] (gap_follow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.949251] (gap_follow) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000712] (-) TimerEvent: {}
+[1.022385] (gap_follow) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.022706] (gap_follow) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100800] (-) TimerEvent: {}
+[1.101193] (gap_follow) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.101516] (gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.164930] (gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.165222] (gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.200901] (-) TimerEvent: {}
+[1.241137] (gap_follow) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.242996] (gap_follow) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300989] (-) TimerEvent: {}
+[1.380944] (gap_follow) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.382207] (gap_follow) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.401077] (-) TimerEvent: {}
+[1.412873] (gap_follow) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.475058] (gap_follow) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[1.501170] (-) TimerEvent: {}
+[1.505545] (gap_follow) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.598317] (gap_follow) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.601242] (-) TimerEvent: {}
+[1.671875] (gap_follow) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.675290] (gap_follow) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.675555] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /sim_ws/src/gap_follow/include\n'}
+[1.675671] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.678861] (gap_follow) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.679033] (gap_follow) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.679633] (gap_follow) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.680697] (gap_follow) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.681472] (gap_follow) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.684824] (gap_follow) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.684945] (gap_follow) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.685604] (gap_follow) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.688240] (gap_follow) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.697010] (gap_follow) StdoutLine: {'line': b'-- Generating done\n'}
+[1.698415] (gap_follow) StdoutLine: {'line': b'-- Build files have been written to: /sim_ws/src/gap_follow/build/gap_follow\n'}
+[1.701326] (-) TimerEvent: {}
+[1.703783] (gap_follow) CommandEnded: {'returncode': 0}
+[1.704569] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[1.705986] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/gap_follow/build/gap_follow', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/gap_follow/build/gap_follow', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,758,0'), ('HOSTNAME', '974c356b7c32'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/gap_follow/gap_follow'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerfxj0r66o.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/gap_follow/build/gap_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[1.751561] (gap_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target reactive_node\x1b[0m\n'}
+[1.783930] (gap_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/reactive_node.dir/src/reactive_node.cpp.o\x1b[0m\n'}
+[1.801415] (-) TimerEvent: {}
+[1.901693] (-) TimerEvent: {}
+[2.001996] (-) TimerEvent: {}
+[2.102299] (-) TimerEvent: {}
+[2.202595] (-) TimerEvent: {}
+[2.302886] (-) TimerEvent: {}
+[2.403157] (-) TimerEvent: {}
+[2.503423] (-) TimerEvent: {}
+[2.603949] (-) TimerEvent: {}
+[2.704618] (-) TimerEvent: {}
+[2.804926] (-) TimerEvent: {}
+[2.905224] (-) TimerEvent: {}
+[3.005533] (-) TimerEvent: {}
+[3.105825] (-) TimerEvent: {}
+[3.206120] (-) TimerEvent: {}
+[3.306654] (-) TimerEvent: {}
+[3.407348] (-) TimerEvent: {}
+[3.508110] (-) TimerEvent: {}
+[3.608420] (-) TimerEvent: {}
+[3.708727] (-) TimerEvent: {}
+[3.809028] (-) TimerEvent: {}
+[3.909343] (-) TimerEvent: {}
+[3.925163] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/reactive_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.925412] (gap_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/gap_follow/src/reactive_node.cpp:181:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgap_indicies\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[3.925530] (gap_follow) StderrLine: {'line': b'  181 |             gap_indicies = \x1b[01;35m\x1b[Kfind_max_gap(gap_indicies, num_readings)\x1b[m\x1b[K;\n'}
+[3.925639] (gap_follow) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.009438] (-) TimerEvent: {}
+[4.109743] (-) TimerEvent: {}
+[4.210062] (-) TimerEvent: {}
+[4.310359] (-) TimerEvent: {}
+[4.410662] (-) TimerEvent: {}
+[4.510990] (-) TimerEvent: {}
+[4.611280] (-) TimerEvent: {}
+[4.711574] (-) TimerEvent: {}
+[4.811864] (-) TimerEvent: {}
+[4.912162] (-) TimerEvent: {}
+[5.012467] (-) TimerEvent: {}
+[5.112735] (-) TimerEvent: {}
+[5.213037] (-) TimerEvent: {}
+[5.313347] (-) TimerEvent: {}
+[5.413631] (-) TimerEvent: {}
+[5.513904] (-) TimerEvent: {}
+[5.614206] (-) TimerEvent: {}
+[5.648526] (gap_follow) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable reactive_node\x1b[0m\n'}
+[5.714310] (-) TimerEvent: {}
+[5.814610] (-) TimerEvent: {}
+[5.861374] (gap_follow) StdoutLine: {'line': b'[100%] Built target reactive_node\n'}
+[5.873995] (gap_follow) CommandEnded: {'returncode': 0}
+[5.896548] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'install'}
+[5.910473] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/sim_ws/src/gap_follow/build/gap_follow'], 'cwd': '/sim_ws/src/gap_follow/build/gap_follow', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,758,0'), ('HOSTNAME', '974c356b7c32'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/gap_follow/gap_follow'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerfxj0r66o.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/gap_follow/build/gap_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/gap_follow/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/gap_follow:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[5.914694] (-) TimerEvent: {}
+[5.921004] (gap_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.921228] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/lib/gap_follow/reactive_node\n'}
+[5.923210] (gap_follow) StdoutLine: {'line': b'-- Set runtime path of "/sim_ws/src/gap_follow/install/gap_follow/lib/gap_follow/reactive_node" to ""\n'}
+[5.923378] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/pythonpath.sh\n'}
+[5.923543] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/pythonpath.dsv\n'}
+[5.923716] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow\n'}
+[5.923875] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py\n'}
+[5.951486] (gap_follow) StdoutLine: {'line': b"Listing '/sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow'...\n"}
+[5.951707] (gap_follow) StdoutLine: {'line': b"Compiling '/sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py'...\n"}
+[5.955710] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow//launch\n'}
+[5.955925] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow//launch/launch.py\n'}
+[5.956109] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow\n'}
+[5.956356] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow\n'}
+[5.956686] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh\n'}
+[5.956889] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv\n'}
+[5.957078] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/path.sh\n'}
+[5.957296] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/path.dsv\n'}
+[5.957497] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.bash\n'}
+[5.957679] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.sh\n'}
+[5.957831] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.zsh\n'}
+[5.957994] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.dsv\n'}
+[5.958160] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/package.dsv\n'}
+[5.958430] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/packages/gap_follow\n'}
+[5.958750] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake\n'}
+[5.958893] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake\n'}
+[5.959050] (gap_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/package.xml\n'}
+[5.961369] (gap_follow) CommandEnded: {'returncode': 0}
+[6.009214] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 0}
+[6.010022] (-) EventReactorShutdown: {}

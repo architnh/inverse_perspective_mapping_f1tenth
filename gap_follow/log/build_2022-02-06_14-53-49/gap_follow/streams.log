@@ -1,0 +1,52 @@
+[0.017s] Invoking command in '/sim_ws/src/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/gap_follow/build/gap_follow -- -j12 -l12
+[0.042s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.204s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.402s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.525s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[0.525s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.555s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.617s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.646s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.713s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.768s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.780s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.780s] -- Configured cppcheck include dirs: /sim_ws/src/gap_follow/include
+[0.781s] -- Configured cppcheck exclude dirs and/or files: 
+[0.794s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.795s] -- Configured cpplint exclude dirs and/or files: 
+[0.796s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.799s] -- Added test 'lint_cmake' to check CMake code style
+[0.800s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.812s] -- Added test 'uncrustify' to check C / C++ code style
+[0.812s] -- Configured uncrustify additional arguments: 
+[0.813s] -- Added test 'xmllint' to check XML markup files
+[0.815s] -- Configuring done
+[0.829s] -- Generating done
+[0.832s] -- Build files have been written to: /sim_ws/src/gap_follow/build/gap_follow
+[0.859s] [35m[1mScanning dependencies of target gap_follow_node_basic[0m
+[0.889s] [ 50%] [32mBuilding CXX object CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o[0m
+[1.868s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.869s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.869s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.869s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.869s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.869s]                  from [01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:1[m[K:
+[1.869s] [01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.869s] [01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:191:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[1.869s]   191 | P_INFO(this->get_logger(), "Range '%d'", [01;31m[Ki[m[K);
+[1.869s]       |                                          [01;31m[K^[m[K
+[1.869s] 
+[2.991s] make[2]: *** [CMakeFiles/gap_follow_node_basic.dir/build.make:63: CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o] Error 1
+[2.991s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gap_follow_node_basic.dir/all] Error 2
+[2.992s] make: *** [Makefile:141: all] Error 2
+[2.994s] Invoked command in '/sim_ws/src/gap_follow/build/gap_follow' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/gap_follow/build/gap_follow -- -j12 -l12

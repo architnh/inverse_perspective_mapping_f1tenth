@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/sim_ws/src/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/gap_follow/build/gap_follow -- -j12 -l12
+[0.067s] [35m[1mScanning dependencies of target gap_follow_node_basic[0m
+[0.087s] [ 50%] Built target gap_follow_node
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/gap_follow_node_basic.dir/src/gap_follow_node_basic.cpp.o[0m
+[1.093s] [01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.093s] [01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:187:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.093s]   187 | [01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+[1.093s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.093s] 
+[4.003s] [100%] [32m[1mLinking CXX executable gap_follow_node_basic[0m
+[4.199s] [100%] Built target gap_follow_node_basic
+[4.212s] Invoked command in '/sim_ws/src/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/gap_follow/build/gap_follow -- -j12 -l12
+[4.254s] Invoking command in '/sim_ws/src/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/gap_follow/build/gap_follow
+[4.264s] -- Install configuration: ""
+[4.264s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/lib/gap_follow/gap_follow_node
+[4.266s] -- Set runtime path of "/sim_ws/src/gap_follow/install/gap_follow/lib/gap_follow/gap_follow_node" to ""
+[4.266s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/lib/gap_follow/gap_follow_node_basic
+[4.268s] -- Set runtime path of "/sim_ws/src/gap_follow/install/gap_follow/lib/gap_follow/gap_follow_node_basic" to ""
+[4.268s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[4.269s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[4.269s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[4.269s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[4.295s] Listing '/sim_ws/src/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[4.298s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow//launch
+[4.298s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow//launch/launch.py
+[4.298s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[4.298s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[4.298s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[4.298s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[4.298s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/path.sh
+[4.298s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/environment/path.dsv
+[4.299s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.bash
+[4.299s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.sh
+[4.299s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.zsh
+[4.299s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/local_setup.dsv
+[4.299s] -- Installing: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/package.dsv
+[4.299s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[4.300s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[4.300s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[4.300s] -- Up-to-date: /sim_ws/src/gap_follow/install/gap_follow/share/gap_follow/package.xml
+[4.302s] Invoked command in '/sim_ws/src/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/gap_follow/build/gap_follow

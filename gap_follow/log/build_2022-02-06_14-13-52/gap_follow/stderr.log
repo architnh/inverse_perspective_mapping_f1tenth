@@ -1,0 +1,9 @@
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node_basic.cpp:34:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | [01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:185:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgap_indicies[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  185 |             gap_indicies = [01;35m[Kfind_max_gap(gap_indicies, num_readings)[m[K;
+      |                            [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

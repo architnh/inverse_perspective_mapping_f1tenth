@@ -1,0 +1,4 @@
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback_test(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/gap_follow/src/gap_follow_node.cpp:168:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  168 |         void lidar_callback_test([01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
